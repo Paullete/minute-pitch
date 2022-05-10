@@ -1,6 +1,6 @@
 from flask import Blueprint
 
 # instantiate the Blueprint
-main = Blueprint(__name__, 'main')
+main = Blueprint( 'main',__name__)
 
 from . import views
