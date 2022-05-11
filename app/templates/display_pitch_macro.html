@@ -15,8 +15,9 @@
                             <a href="/comment/{{pitch.id}}"><button class="btn btn-dark">Comment</button></a>
                         </div>
                         <div class="votes">
-                            <a href=""><button class="btn btn-success">UpVote</button></a>
-                            <a href=""><button class="btn btn-danger">DownVote</button></a>
+                            <a href="/like/{{pitch.id}}"><button class="btn btn-success">Up Vote {{pitch.upvotes.count()}}</button></a>
+                            <a href="/dislike/{{pitch.id}}"><button class="btn btn-success">Down Vote {{pitch.downvotes.count()}}</button></a>
+
                         </div>
                     </div>
                 </div>
