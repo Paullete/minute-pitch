@@ -1,4 +1,4 @@
-# minute-pitch# WATCHLIST-SQL
+# MINUTE-PITCH
 
 ## Author
 
@@ -9,12 +9,12 @@ A Flask framework { python } application that keeps up a user with currrent affa
 
 ## User Story ( BDD ) 
 The user would like to.... :
-+  to see various news sources on the homepage of the application.
-+ select a news source and see all news articles from the selected news source in the application.
-+  see the image, description and the time a news article was created.
-+ click on an article and read the full article on the source website.
++  Log in and/or sign in to their profile.
++  View previous pitches or add a new pitch.
++  Like,dislike,comment on previous pitches.
++  Logout of their profile.
 
-## [Demo](https://pote-movies.herokuapp.com/) click to view
+<!-- ## [Demo](https://pote-movies.herokuapp.com/) click to view -->
 
 
 
@@ -30,7 +30,7 @@ The user would like to.... :
 
 * Open Terminal {Ctrl+Alt+T}
 
-* git clone ``https://pote-movies.herokuapp.com/.git``
+* git clone ``https://github.com/Paullete/minute-pitch.git``
 
 
 
@@ -48,12 +48,6 @@ The user would like to.... :
 * #### Install Flask and other dependencies/Modules
         $ pip install flask
         $ pip install flask-Bootstrap ( optional)
-* #### set up the API KEY
-        + create account in [https://newsapi.org] and key will be issued
-        + in root fold of your app create  a folder,config file in it and paste you API key and add it to .gitignore
-        + alternatively have any python file in root folder and :
-            export NEWS_API_KEY='<Your-Api-Key goes here>'
-            python3 manage.py server
 * #### Run app using vs terminal or main terminal
         $ chmod +x launch.sh
         $ ./launch.sh
