@@ -16,6 +16,8 @@ The user would like to.... :
 
 <!-- ## [Demo](https://pote-movies.herokuapp.com/) click to view -->
 
+  The app looks like this: 
+  ![Image](./app/static/css/Screenshot%20from%202022-05-11%2013-12-51.png)
 
 
 ## Installation / Setup instruction
