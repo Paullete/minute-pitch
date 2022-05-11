@@ -1,9 +1,18 @@
+.nav-link {
+    color: black !important;
+}
+.nav-link:hover {
+    background-color: #f8f9fa;
+    background: #EEF0F4;
+    box-shadow: inset 9.91px 9.91px 15px #E2E3E4, inset -9.91px -9.91px 15px #e3e4e9;
+}
 .login,.signup {
     border: 1px solid black;
 }
 .card {
     border: 1px solid wheat;
     margin-top: 5px;
+    
     
 }
 
@@ -16,7 +25,63 @@
 body{
     background-image: url("pexels-photo-4397920.jpeg");
     font-style: italic;
+    font-size: 2.0rem;
 }
+.homeButtons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.btn {
+    margin-left: 0.3em;
+    font-size: smaller;
+    margin-top: 1em;
+}
+
+.welcome-section {
+    padding: 1em;
+    border-radius: 1em;
+    background: #ebebeb;
+    box-shadow:  20px 20px 60px #c8c8c8,
+             -20px -20px 60px #ffffff;
+}
+form {
+    border: 1px solid blue;
+    background-color: aliceblue;
+}
+.form-text{
+    color: blue;
+}
+form {
+    border: 1px solid black;
+    background-color: bisque;
+}
+.pitch {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.votes {
+    display: flex;
+}
+
+.pitchCard {
+    border-radius: 0.5em;
+}
+
+.downvote {
+    margin-left: 0.3em;
+}
+
 
 @media screen and (min-width:800px){
     #message{
