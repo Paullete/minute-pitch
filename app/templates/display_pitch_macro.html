@@ -8,16 +8,17 @@
           {% for pitch in pitches %}
            <div class="card pitchCard" style="width: 25rem;">
                 <div class="card-body">
-                    <h5 class="card-title">{{pitch.category}}</h5>
-                    <p>{{pitch.title}}</p>
+                    <h5 class="card-title pitch-category">{{pitch.category}}</h5>
+                    <h6>Title: {{pitch.title}}</h6>
                     <p>{{pitch.content}}</p>
+                    <p class="author">By {{pitch.user.username.title()}} on {{pitch.date}}</p>
                     <div class="footer">
                         <div class="comments">
                             <a href="/comment/{{pitch.id}}"><button class="btn btn-dark">Comment</button></a>
                         </div>
                         <div class="votes">
                             <div class="upvote">
-                            <a href="/like/{{pitch.id}}"><button class="btn btn-info"><i class="bi bi-hand-thumbs-up"></i> {{pitch.upvotes.count()}}</button></a>
+                            <a href="/like/{{pitch.id}}"><button class="btn btn-success"><i class="bi bi-hand-thumbs-up"></i> {{pitch.upvotes.count()}}</button></a>
                         </div>
                         <div class="downvote">
                             <a href="/dislike/{{pitch.id}}"><button class="btn btn-danger"><i class="bi bi-hand-thumbs-down"></i> {{pitch.downvotes.count()}}</button></a>
