@@ -2,7 +2,7 @@
 
 ## Author
 
-~ Paullete Adhiambo
+~ Paullete Adhiambo.
 ## Description
 
 A Flask framework { python } application that enables users login or sign in to post a pitch and/or like and comment on existing pitches.
